@@ -1,0 +1,28 @@
+# Key Value Pairs
+"apple" : "I am a ref fruit"
+1: "This is my roll number"
+
+# Lists
+---
+- apple
+- mango
+- banana
+- Apple
+
+# Block Style
+---
+cities:
+- new delhi
+- mumbai
+- bihar
+
+---
+cities: [new delhi, mumbai]
+
+---
+{mango: "Yellow Fruit", age: 25}
+
+
+...
+
+

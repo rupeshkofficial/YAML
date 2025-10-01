@@ -1,0 +1,56 @@
+# String Variables & Their different representations
+
+myself: Rupesh Kumar
+job: "Developer"
+company: 'Rupesh Company'
+
+
+bio: |
+  Rupesh Kumar is a Developer at Rupesh Company.
+  He loves coding and sharing knowledge with the community.
+
+# Write a single line in multiple lines
+message: >
+  this will
+  all be 
+  a single line
+
+# Same as
+message: !!str "this will all be a single line"
+
+number: 345234
+marks: 98.68
+booleanValue: !!bool No  #n, N, false,false, FALSE
+# same for true -> yes, y, Y
+
+# specify the type --> Forcefully
+
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !! int 0b11001 # 25 in decimal
+octalNum: !! int 0o31    # 25 in decimal
+hexNum: !! int 0x19      # 25 in decimal  
+commaValue: !! int +540_000  # 540000
+exponential: 6.023E56
+
+# floating point numbers
+marks1: !! float 98.68
+infinite: !!float .inf
+not a num: .nan 
+
+# null
+
+surname: !!null Null # or null NULL ~
+~: this is a null key
+
+# dates and time
+date: !!timestamp 2023-10-15
+india time: 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10
+
+
+
+
+
+
