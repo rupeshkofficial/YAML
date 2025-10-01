@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<School name="DPS" principal="Gopal Sinha">
+   <Students>
+      <Student>
+         <rno>1</rno>
+         <name>Raju</name>
+         <marks>85</marks>
+         </Student>
+  </Students>
+</School>
